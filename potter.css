@@ -1,0 +1,68 @@
+div.contenedorgeneral{
+           	background-image: url("WORLD.png");
+width: 950px;
+height: 200px;background-color:red;
+margin-left: auto;margin-right: auto
+}
+div.titulo{
+width: 950px;height: 192px;background-image: url(fondo2.jpg);
+margin-left: auto;margin-right: auto; float: right
+}
+div.lista{
+width: 180px; height: 400px; background-color: yellow;
+float: left;
+}
+
+div.interior{
+width: 770px; height: 400px; background-color: white; 
+float: right;
+}
+div.pie{
+width: 950px; height: 100px; 
+background:black; 
+float: bottom;
+}
+header{
+background: red;
+}
+nav.n{
+background: black ;text-align: left; 
+width: 950px;display: inline-block;
+list-style: none;
+}
+nav.n ul.n{display:inline-block;
+text-align: center
+}
+nav.n ul.n li.n{
+display: inline-block;list-style: none;
+font-size: 20px
+}
+nav.n ul.n li.n a.n{
+text-decoration: none;color: black;
+}
+nav ul li{
+display: table;list-style: none;
+font-size: 20px
+}
+nav ul li a{
+text-decoration: none;
+color: black;
+}
+nav{
+background:green;
+width: 180px;
+text-align: left;
+}
+nav.p{
+background:black;width: 950px;
+text-align: left;
+clear: both;
+}
+h1.especifico{font-family: Arial black; 
+color:black;
+position: right
+}
+h1{font-family: Impact; 
+color:white;
+position: right
+}
