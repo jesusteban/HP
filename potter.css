@@ -1,4 +1,4 @@
-
+     
 
            div.contenedorgeneral{
            	background-image: url("WORLD.png");
@@ -68,3 +68,107 @@ h1{font-family: Impact;
 color:white;
 position: right
 }
+
+
+
+li.espe{
+display: inline-block;
+margin: 7px -2px;
+}
+
+
+
+
+
+*{
+		padding: 0px;
+		margin: 0px;
+	}
+
+	#navegacion{
+		margin: auto;
+		width: 500px;
+	}
+
+	ul, ol{
+		list-style: none;
+	}
+
+	#Lista li a{
+		background: black;
+		color: white;
+		text-decoration: none;
+		padding:10px 15px;
+		display: block;
+		border-radius: 0px;
+	}
+
+	#Lista > li{
+		float: right;
+	}
+
+	#Lista li a:hover{
+		background: darkred;
+	}
+
+	#Lista li ul{
+		display: none;
+		position: absolute;
+	}
+
+	#Lista li:hover > ul{
+		display: block;
+	}
+
+	<!-- Esta parte es para una lista desplegable dentro de otra lista desplegable-->
+
+	#Lista li ul li{
+		position: relative;
+
+	}
+
+	#Lista li ul li ul{
+		right: -140px;
+		top: 0px;
+	}
+
+
+
+
+	#Boton li a{
+		background: black;
+		color: white;
+		text-decoration: Arial;
+		padding:10px 15px;
+		display: block;
+	
+	}
+
+	#Boton li a:hover{
+		background: darkgreen;
+	}
+
+	#Boton li ul{
+		display: none;
+		position: relative;
+		top:-41px;
+		
+		
+	}
+
+	#Boton li:hover > ul{
+		display: block;
+
+	}
+
+	#Boton li ul li{
+		position: absolute;
+		right: -70px;
+	}
+
+	#Boton li ul li ul{
+		right: -128px;
+		top: 0px;
+	
+	}
+
